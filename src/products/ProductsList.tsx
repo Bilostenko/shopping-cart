@@ -30,17 +30,10 @@ const ProductList: React.FC<ProductListProps> = () => {
       <button
         onClick={() =>
           setProducts((prevProducts) => [
-            {
-              title: 'Half Life 2',
+            { title: 'Half Life 2',
               price: 85,
-              id: 'hl2',
-            },
-            ...prevProducts,
-          ])
-        }
-      >
-        Buy
-      </button>
+              id: 'hl2', },
+            ...prevProducts,]) }>Buy</button>
     </div>
   );
 };
